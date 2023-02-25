@@ -1,0 +1,62 @@
+@font-face{
+	font-family:"Daniel";
+	src: url('Megrim-Regular.ttf');}
+
+	div{
+      width: 80%;
+      margin: auto;
+      background-color: burlywood;
+      text-align: center;
+      padding: 20px;
+      max-width: 600px;
+
+	}
+
+
+body{
+	  background-image: url(beans.jpg);
+
+}
+
+h1{ 
+	font-family: impact;
+ }
+
+ h2{
+ 	font-family: impact;
+ }
+
+ hr{
+    border-color: brown;
+    border-width: 2px;
+ }
+
+.flavour, .dessert{
+	text-align: left;
+	display: inline-block;
+	width: 49%;
+	margin-bottom: 0;
+	font-family: cursive;
+}
+
+.price{
+	text-align: right;
+	display: inline-block;
+	width: 30%;
+	margin-bottom: 0;
+	font-family: cursive;
+}
+
+a:visited{
+	color: red;
+}
+
+
+a:hover{
+	color: ghostwhite ;
+	font-size: 200;
+}
+
+a:active{
+	color: rebeccapurple;
+}
